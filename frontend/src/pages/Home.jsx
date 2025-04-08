@@ -33,7 +33,7 @@ function Home() {
     <div>
       <h2>Lista de Usuários</h2>
       <Link to="/add-user">
-        <button>Adicionar Novo Usuário</button>
+        <button className="bt">Adicionar Novo Usuário</button>
       </Link>
       <ul>
         {users.map((user) => (

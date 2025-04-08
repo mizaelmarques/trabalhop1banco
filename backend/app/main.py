@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker, Session
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-DATABASE_URL = "mysql+pymysql://root:3306@localhost/sistema_db"
+DATABASE_URL = "mysql+pymysql://root:26371492@localhost/sistema_db"
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)

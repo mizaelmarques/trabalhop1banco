@@ -4,7 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.sql import func
 
-DATABASE_URL = os.getenv("DATABASE_URL", "mysql+pymysql://root:3306@localhost/sistema_db")
+DATABASE_URL = os.getenv("DATABASE_URL", "mysql+pymysql://root:26371492@localhost/sistema_db")
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
